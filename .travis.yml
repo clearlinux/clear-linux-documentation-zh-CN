@@ -14,6 +14,7 @@ script:
   - make htmlzh
 
 before_deploy:
+  - make linkcheck
   - tar -zcvf clearlinux-docs-zh-CN.tar.gz -C source/_build/zh_CN .
 
 deploy:
@@ -23,8 +24,3 @@ deploy:
     file: clearlinux-docs-zh-CN.tar.gz
     on:
       tags: true
-
-
-after_deploy:
-  - wget $PUBLISH_URL
-  - cat clearlinux-latest
