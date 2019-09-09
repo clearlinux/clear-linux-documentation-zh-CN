@@ -64,7 +64,7 @@ htmlde:
 	@echo "Build finished. The HTML pages are in $(BUILDDIR)/html/de."
 
 htmlzh:
-	$(SPHINXBUILD) -b html -D language='zh_CN' $(ALLSPHINXOPTS) $(BUILDDIR)/html/zh_CN 
+	$(SPHINXBUILD) -b html -D language='zh_CN' $(ALLSPHINXOPTS) $(BUILDDIR)/zh_CN 
 	@echo
 	@echo "Build finished. The HTML pages are in $(BUILDDIR)/html/zh_CN."	
 
