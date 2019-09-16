@@ -102,7 +102,6 @@ We validated these steps against the following software package versions:
 * Kubernetes 1.11.3
 * Go 1.11.12
 
-
 .. note::
 
    The Deep Learning Reference Stack was developed to provide the best user
@@ -171,7 +170,7 @@ single node.
 
    .. code-block:: bash
 
-      docker run --name <image name>  --rm -i -t <clearlinux/stacks-dlrs-TYPE> bash
+      docker run --name <image name>  --rm -i -t <clearlinux/stacks-pytorch-TYPE> bash
 
    .. note::
 
@@ -798,16 +797,16 @@ the host system, replace :command:`127.0.0.1` with the IP address of the host.
 
 Your browser displays the following:
 
-.. figure:: ../_figures/stacks/dlrs-fig-1.png
+.. figure:: ../../_figures/stacks/dlrs-fig-1.png
    :scale: 50%
    :alt: Jupyter Notebook
 
-Figure 1: :guilabel:`Jupyter Notebook`
+Figure 1: Jupyter Notebook
 
 
 To create a new notebook, click :guilabel:`New` and select :guilabel:`Python 3`.
 
-.. figure:: ../_figures/stacks/dlrs-fig-2.png
+.. figure:: ../../_figures/stacks/dlrs-fig-2.png
    :scale: 50%
    :alt: Create a new notebook
 
@@ -815,10 +814,11 @@ Figure 2: Create a new notebook
 
 A new, blank notebook is displayed, with a cell ready for input.
 
-.. figure:: ../_figures/stacks/dlrs-fig-3.png
+.. figure:: ../../_figures/stacks/dlrs-fig-3.png
    :scale: 50%
    :alt: New blank notebook
 
+Figure 3: New blank notebook
 
 To verify that PyTorch is working, copy the following snippet into the blank
 cell, and run the cell.
@@ -830,15 +830,20 @@ cell, and run the cell.
    x = torch.rand(5, 3)
    print(x)
 
-.. figure:: ../_figures/stacks/dlrs-fig-4.png
+.. figure:: ../../_figures/stacks/dlrs-fig-4.png
    :scale: 50%
    :alt: Sample code snippet
 
+Figure 4: Sample code snippet
+
 When you run the cell, your output will look something like this:
 
-.. figure:: ../_figures/stacks/dlrs-fig-5.png
+.. figure:: ../../_figures/stacks/dlrs-fig-5.png
    :scale: 50%
-   :alt: code output
+   :alt: Code output
+
+Figure 5: Code output
+
 
 You can continue working in this notebook, or you can download existing
 notebooks to take advantage of the Deep Learning Reference Stack's optimized
@@ -961,7 +966,7 @@ Related topics
 
 .. _Docker Hub: https://hub.docker.com/
 
-.. _TensorFlow Benchmarks: https://www.tensorflow.org/guide/performance/benchmarks
+.. _TensorFlow Benchmarks: https://github.com/tensorflow/benchmarks
 
 .. _PyTorch benchmarks: https://github.com/pytorch/pytorch/blob/master/caffe2/python/convnet_benchmarks.py
 
