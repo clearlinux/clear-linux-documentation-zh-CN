@@ -450,7 +450,7 @@ msgstr "使用一个编辑器，从 bundle 定义中手动移除 `joe`。"
 
 #: ../../guides/clear/mixer.rst:261
 msgid "List the bundles in the mix again to confirm removal."
-msgstr "在 mix 中再次列出 buddles 以确认移除。"
+msgstr "在 mix 中再次列出 bundles 以确认移除。"
 
 #: ../../guides/clear/mixer.rst:268
 msgid "Build bundles:"
